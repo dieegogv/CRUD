@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/degradado1">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_user"
+        android:background="@drawable/user"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundregistro">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btRegresarRegistro"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/back" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:id="@+id/campoId"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/registration"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_user"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_marginLeft="5dp"
+                android:id="@+id/etNombre"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/roundedtextview"
+                android:gravity="center"
+                android:hint="Nombre"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorBlanco" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_email"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etEmail"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedtextview"
+                android:hint="Email"
+                android:textColorHint="@color/colorBlanco"
+                android:gravity="center"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_celphone"
+                android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etCelular"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundedtextview"
+            android:hint="Celular"
+            android:textColorHint="@color/colorBlanco"
+            android:gravity="center"
+            android:inputType="phone" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_age"
+                    android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etEdad"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundedtextview"
+            android:hint="Edad"
+            android:textColorHint="@color/colorBlanco"
+            android:gravity="center"
+            android:inputType="number" />
+            </LinearLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <ImageButton
+        android:id="@+id/btBoy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/boy"/>
+
+    <ImageButton
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btGirl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/girl"
+         />
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/btContinue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/right" />
+</LinearLayout>
+
+
+
+</LinearLayout>
